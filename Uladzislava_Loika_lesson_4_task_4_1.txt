@@ -1,0 +1,60 @@
+1) 
+C:\Users\Ursula>pip freeze
+WARNING: Ignoring invalid distribution -ip (d:\python 3\lib\site-packages)
+certifi==2021.10.8
+charset-normalizer==2.0.11
+distlib==0.3.4
+filelock==3.4.2
+idna==3.3
+platformdirs==2.4.1
+requests==2.27.1
+six==1.16.0
+urllib3==1.26.8
+virtualenv==20.13.0
+
+
+2)
+C:\Users\Ursula>pip install pillow
+WARNING: Ignoring invalid distribution -ip (d:\python 3\lib\site-packages)
+WARNING: Ignoring invalid distribution -ip (d:\python 3\lib\site-packages)
+Collecting pillow
+  Downloading Pillow-9.0.1-cp310-cp310-win_amd64.whl (3.2 MB)
+     ------------------------------------- 3.2/3.2 MB 791.3 kB/s eta 0:00:00
+WARNING: Ignoring invalid distribution -ip (d:\python 3\lib\site-packages)
+Installing collected packages: pillow
+WARNING: Ignoring invalid distribution -ip (d:\python 3\lib\site-packages)
+Successfully installed pillow-9.0.1
+WARNING: Ignoring invalid distribution -ip (d:\python 3\lib\site-packages)
+WARNING: Ignoring invalid distribution -ip (d:\python 3\lib\site-packages)
+
+
+3)
+D:\ULADZIA\GEEK_BRAINS_Python\PYTHON_BEGINER\lesson_4>py -m venv env
+
+D:\ULADZIA\GEEK_BRAINS_Python\PYTHON_BEGINER\lesson_4>cd env
+
+D:\ULADZIA\GEEK_BRAINS_Python\PYTHON_BEGINER\lesson_4\env>Scripts\activate
+
+(env) D:\ULADZIA\GEEK_BRAINS_Python\PYTHON_BEGINER\lesson_4\env>pip freeze
+
+
+4)
+(env) D:\ULADZIA\GEEK_BRAINS_Python\PYTHON_BEGINER\lesson_4\env>pip install requests==2.1
+Collecting requests==2.1
+  Downloading requests-2.1.0-py2.py3-none-any.whl (445 kB)
+     |████████████████████████████████| 445 kB 1.1 MB/s
+Installing collected packages: requests
+Successfully installed requests-2.1.0
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'D:\ULADZIA\GEEK_BRAINS_Python\PYTHON_BEGINER\lesson_4\env\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(env) D:\ULADZIA\GEEK_BRAINS_Python\PYTHON_BEGINER\lesson_4\env>pip freeze
+requests==2.1.0
+
+(env) D:\ULADZIA\GEEK_BRAINS_Python\PYTHON_BEGINER\lesson_4\env>
+
+
+5)
+(env) D:\ULADZIA\GEEK_BRAINS_Python\PYTHON_BEGINER\lesson_4\env>deactivate
+D:\ULADZIA\GEEK_BRAINS_Python\PYTHON_BEGINER\lesson_4\env>
+
